@@ -6,23 +6,17 @@ class interface IController
 
     Tasks AddTask();
 
-    Tasks RemoveTask();
-
-    Tasks ModifyTask();
-
     Tasks NoOfTasks();
 
     Tasks IsEmpty();
 
+    double EventsCompletedPercentage();
+
     Events [] EventArrays();
 
-    Events AddTask();
+    Events AddEvent();
 
-    Events RemoveTask();
-
-    Events ModifyTask();
-
-    Events NoOfTasks();
+    Events NoOfEvents();
 
     Events IsEmpty();
 
